@@ -1,5 +1,0 @@
-spring:
-  application:
-    name: custom-filters
-  security:
-    key: some_secret_key

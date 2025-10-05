@@ -15,7 +15,7 @@ class SecurityConfig(
     @Bean
     fun securityFilterChain(httpSecurity: HttpSecurity): SecurityFilterChain =
         httpSecurity
-//            .addFilterAt(apiKeyAuthenticationFilter, BasicAuthenticationFilter::class.java)
+            .addFilterAt(apiKeyAuthenticationFilter, BasicAuthenticationFilter::class.java)
             .authorizeHttpRequests { httpRequest -> httpRequest.anyRequest().authenticated() }
             .build()
 

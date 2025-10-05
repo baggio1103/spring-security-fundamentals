@@ -6,7 +6,7 @@ val orders = listOf(
         customerName = "Alice",
         items = listOf("Book", "Pen"),
         totalAmount = 29.99,
-        status = OrderStatus.PENDING
+        status = "PENDING"
     )
 )
 
@@ -15,12 +15,5 @@ data class Order(
     val customerName: String,
     val items: List<String>,
     val totalAmount: Double,
-    val status: OrderStatus
+    val status: String
 )
-
-enum class OrderStatus {
-    PENDING,
-    PROCESSING,
-    COMPLETED,
-    CANCELLED
-}

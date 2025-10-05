@@ -57,6 +57,15 @@ Whether you're working with:
 
 I’ve broken the series into digestible posts, each tackling one core concept at a time:
 
+#### Source Code:
+
+* 🔗 [Introduction to Spring Security](https://github.com/baggio1103/spring-security-fundamentals/tree/main/basics)
+* 🔗 [Custom UserDetailsService with Database Authentication](https://github.com/baggio1103/spring-security-fundamentals/tree/main/managing-users)
+* 🔗 [Api-Key Authentication](https://github.com/baggio1103/spring-security-fundamentals/tree/main/custom-authentication)
+* 🔗 [Authentication Providers: Implementing Multiple Authentication Providers](https://github.com/baggio1103/spring-security-fundamentals/tree/main/multi-auth-providers)
+* 🔗 [Exploring Authorization: Endpoint / FilterBased Level Authorization](https://github.com/baggio1103/spring-security-fundamentals/tree/main/endpoint-authorization)
+* 🔗 [Exploring Authorization: Method-Level Authorization](https://github.com/baggio1103/spring-security-fundamentals/tree/main/method-authorization)
+
 #### Substack:
 
 * 🔗 [Introduction to Spring Security](https://open.substack.com/pub/atomiccoding/p/spring-security-crash-course-with?r=23nm1x&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)

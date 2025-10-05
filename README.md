@@ -107,7 +107,4 @@ If you've been struggling to understand Spring Security, I hope this series brin
 
 ---
 
-Thanks for reading — happy coding, and see you in the next post!
-🚀
-
-#SpringBoot #SpringSecurity #Java #BackendDevelopment #SoftwareEngineering #Coding
+Thanks for reading — happy coding, and see you in the next post! 🚀

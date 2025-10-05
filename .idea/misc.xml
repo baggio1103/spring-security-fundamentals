@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/basics" />
+    <file type="web" url="file://$PROJECT_DIR$/custom-authentication" />
+    <file type="web" url="file://$PROJECT_DIR$/custom-filters" />
+    <file type="web" url="file://$PROJECT_DIR$/endpoint-authorization" />
+    <file type="web" url="file://$PROJECT_DIR$/managing-users" />
+    <file type="web" url="file://$PROJECT_DIR$/method-authorization" />
+    <file type="web" url="file://$PROJECT_DIR$/multi-auth-providers" />
+    <file type="web" url="file://$PROJECT_DIR$/oauth2/authorization-server" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

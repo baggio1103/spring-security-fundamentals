@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: custom-authentication-app
+
+authentication:
+  api:
+    secret-key: "some_secret_key"

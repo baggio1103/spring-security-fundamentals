@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: multi-auth-providers
+authentication:
+  secret:
+    api-key: some_secret_key

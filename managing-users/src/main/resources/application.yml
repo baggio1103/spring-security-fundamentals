@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: managing-users
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:orders}
+    username: ${DB_USERNAME:security-user}
+    password: ${DB_PASSWORD:security-password}
+    hikari:
+      idle-timeout: 300000
+      connection-test-query: SELECT 1
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect

@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+
+  orders:
+    container_name: orders
+    image: postgres:17.4-alpine3.21
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=orders
+      - POSTGRES_USER=security-user
+      - POSTGRES_PASSWORD=security-password
+    volumes:
+      - orders:/var/lib/postgresql/data
+
+
+volumes:
+  orders:
+    driver: local
